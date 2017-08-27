@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#02010a; font-family:"Dancing Script";}
+#contenido{}
+#cabecera {
+	background:#5b7989; height:60px; width:80%; margin-left:10%; border-radius:10px 10px 0px 0px;}
+
+h1 {color:#FFF; text-shadow:2px 2px #02010a; margin-left:20px; font-size:100%; padding-top:20px;}
+#menu{ margin-top:-30px;  width:25%; margin-left:75%; }
+ p { font-size:100%;}
+a{color:#FFF; text-decoration:none;}
+#menu p {color:fff; display:inline; }
+#portada { width:80%;  background:#82c3a6; margin-left:10%;  }
+#portada img { margin-left:10%; margin-top:3.3%; margin-top:25px; box-shadow:2px 2px #82c3a6;}
+#autos  { width:80%; background:#d5c75f; margin-left:10%;  display:flex; border:1px; }
+#honda{ margin-left:10%; margin-top:35px; width:35%; }
+#honda img { box-shadow:2px 2px #02010a; }
+#honda:hover {transform:rotate(10deg); } 
+#toyota{ margin-left:8%; margin-top:35px; width:35%; } 
+#toyota img{ box-shadow:2px 2px #02010a;  }
+#toyota:hover{ transform:translate(20px,-5px); } 
+#footer{ width:80%; height:200px; background:#C6d5c5; margin-left:10%; border-radius:0px 0px 10px 10px; }
+.imageuno{ -webkit-filter:blur(10px); filter:blur(10px);}
+.imagenpares {-webkit-filter:grayscale(100%); filter:grayscale(90%);}	
+.imagenquinta{-webkit-filter:sepia(90%); filter:sepia(100%);} 
+.retratouno{ -webkit-filter:blur(10px); filter:blur(10px);}
+.retratodos {-webkit-filter:grayscale(100%); filter:grayscale(90%);}
+.retratocinco{-webkit-filter:sepia(90%); filter:sepia(100%);} 
+@-webkit-keyframes slideIn{0%;
+{ margin-top:150%;}
+60% { margin-top:-5%;
+}
+100% {margin-top:0%;
+}
+}
+
+@-webkit-keyframes slide{
+0%{
+margin-top: 150%;
+}60%{
+margin-top: -5%;
+}100%{
+margin-top: 0%;
+}
+}
+.contenido {
+margin: 0 auto;
+-webkit-animation: slide 1s forwards;
+}
+
+@media (min-width:900px) {
+	#contenido{ max-width:900px; margin:auto;}
+
+#autosmovil { width:80%; margin-left:10%; display:none;}
+#footer{ width:80%; height:auto;}
+#contacto{  width:20%; height:auto; display:inline-block; margin-left:5%; }
+#terminos{ width:20%; height:auto; display:inline-block;  margin-left:3%; }
+#redessociales{  width:20%; height:auto; display:inline-block;  margin-left:3%;}
+#derecho{ width:20%; height:auto;display:inline-block;  margin-left:5%;}
+#paisajes{ width:80%; height:auto; background:#d5c75f; margin-left:10%;}
+#primera{ margin-left:2%; width:30%; height:auto;}
+#primera img { width:100%; height:auto; box-shadow:2px 2px #82c3a6;}
+#segunda{ width:30%; height:auto; margin-left:35%; margin-top:-278px;}
+#segunda img {  width:100%; height:auto;}
+#tercera{ width:30%; height:auto; margin-left:68%; margin-top:-278px;}
+#tercera img { width:100%; height:auto;} 
+#paisajes img { box-shadow:2px 2px #02010a;}
+#portada img {box-shadow:2px 2px #02010a; }
+#toyota img:hover {box-shadow:2px 2px #82c3a6; }
+#honda img:hover {box-shadow:2px 2px #82c3a6; }
+
+
+
+
+	
+}
+
+@media (max-width:900px){
+	
+#hondamovil img {box-shadow:2px 2px #02010a; }
+#toyotamovil img{ box-shadow:2px 2px #02010a;   }
+#contenido{ max-width:100%; margin:auto;}
+#autosmovil { width:80%;  background:#d5c75f; margin-left:10%; border:1px; display:flex; display:block;}
+#autos { width:80%; height:300px; background:#d5c75f; margin-left:10%; border:1px; display:flex; display:none; }
+#hondamovil:hover {transform:rotate(10deg); } 
+#toyotamovil:hover{ transform:translate(20px,-5px);} 
+#footer{ width:80%; height:auto;}
+#contacto{ text-align:center;}
+#terminos{text-align:center; }
+#redessociales{text-align:center; }
+#derecho{text-align:center; }
+#menu{ margin:0px; }
+#menu  {color:fff; font-size:100%; margin-left:30%;  }
+#cabecera { width:80%; height:auto;}
+#cabecera p { text-align:center;}
+img{ width:80%; margin-left:10%; margin-top:10px;}
+#cabecera h1 { text-align:center;}
+#paisajes{ width:80%; height:auto; background:#d5c75f; margin-left:10%; }
+#paisajes img { box-shadow:2px 2px #02010a;}
+#portada img {box-shadow:2px 2px #02010a; }
+#hondamovil img:hover {box-shadow:2px 2px #82c3a6; } 
+#toyotamovil img:hover {box-shadow:2px 2px #82c3a6; }
+	
+}
+
